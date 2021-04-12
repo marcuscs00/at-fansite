@@ -17,7 +17,8 @@ figcaption {
 	text-indent: 3em;
 }
 
-li {
+ul, li {
+	display: flex;
 	list-style: none;
 	padding: 1em 1em 1em 1em;
 }

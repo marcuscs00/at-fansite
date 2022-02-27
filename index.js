@@ -6,3 +6,11 @@ drukqs = 'https://www.youtube.com/watch?v=htUalPYmIxk&list=PL5SMXYhIcZ5IeYo5XP4h
 syro = 'https://www.youtube.com/watch?v=yl_zy389rbk&list=PL5SMXYhIcZ5KrbqW82yRAFgzoYcblFCFt';
 
 yt_discog_list = [saw1,saw2,icbyd,rdja,drukqs,syro];
+
+$(function(){
+
+    // jQuery methods go here...
+    $("button").click(function(){
+        $("iframe").prop('src') = saw2;
+      });
+  });

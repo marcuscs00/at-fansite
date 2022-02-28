@@ -5,6 +5,16 @@ body {
 	font-family: monospace;
 }
 
+#video-stuff {
+	margin: auto;
+	width: 45%;
+}
+
+#inside-div {
+	margin: auto;
+	width: 20%;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
